@@ -314,13 +314,4 @@ $env:NEXT_DIST_DIR=".next-build"
 npm run build
 ```
 
-### You want this to be a generic chatbot instead of a medical assistant
 
-Replace `SYSTEM_PROMPT` in `.env.local` with your own domain prompt. The current default is medical because that was the existing project behavior.
-
-
-## Important
-
-- Do not commit `.env.local`.
-- The uploaded version included a real Hugging Face token. Rotate that token in Hugging Face settings before reusing this project.
-- Do not ship `.next` or `node_modules` inside source-control or handoff zip files.
