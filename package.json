@@ -1,0 +1,21 @@
+{
+  "name": "nextjs-hf-qwen35-chat",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ext .js,.mjs"
+  },
+  "dependencies": {
+    "next": "15.5.14",
+    "openai": "4.104.0",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "eslint": "8.57.1",
+    "eslint-config-next": "15.5.14"
+  }
+}
